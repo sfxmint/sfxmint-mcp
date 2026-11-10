@@ -5,6 +5,7 @@
   "description": "Free CC0 sound effects for apps and games: find a sound by event, set or description and download it into the project.",
   "author": { "name": "SFXMint", "url": "https://sfxmint.com" },
   "homepage": "https://sfxmint.com",
+  "privacyPolicyUrl": "https://sfxmint.com/privacy",
   "repository": "https://github.com/sfxmint/sfxmint-mcp",
   "license": "CC0-1.0",
   "keywords": ["sound-effects", "audio", "game-audio", "cc0", "mcp"]
