@@ -22,7 +22,7 @@ Claude Code, as a plugin (the MCP server plus the skill below):
 On Claude Code before 2.1.275, run `/plugin marketplace add sfxmint/sfxmint-mcp`, then `/plugin install sfxmint@sfxmint`. Or add only the MCP server:
 
 ```bash
-claude mcp add --transport http sfxmint https://sfxmint.com/mcp
+claude mcp add --transport http sfxmint "https://sfxmint.com/mcp?ref=github-readme"
 ```
 
 Gemini CLI, as an extension (the MCP server, a context file and the skill):
@@ -41,17 +41,17 @@ codex plugin add sfxmint@sfxmint
 Cursor / generic `mcpServers` config:
 
 ```json
-{ "mcpServers": { "sfxmint": { "url": "https://sfxmint.com/mcp" } } }
+{ "mcpServers": { "sfxmint": { "url": "https://sfxmint.com/mcp?ref=github-readme" } } }
 ```
 
 To let the agent make sounds too, add your API key (only the generation tools use it):
 
 ```bash
-claude mcp add --transport http sfxmint https://sfxmint.com/mcp --header "Authorization: Bearer $SFXMINT_API_KEY"
+claude mcp add --transport http sfxmint "https://sfxmint.com/mcp?ref=github-readme" --header "Authorization: Bearer $SFXMINT_API_KEY"
 ```
 
 ```json
-{ "mcpServers": { "sfxmint": { "url": "https://sfxmint.com/mcp", "headers": { "Authorization": "Bearer sfx_live_…" } } } }
+{ "mcpServers": { "sfxmint": { "url": "https://sfxmint.com/mcp?ref=github-readme", "headers": { "Authorization": "Bearer sfx_live_…" } } } }
 ```
 
 Prefer a skill over a server? This repo also ships an Agent Skill that uses the plain HTTP API — no MCP server required:

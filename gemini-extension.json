@@ -1,10 +1,10 @@
 {
   "name": "sfxmint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Free CC0 sound effects for apps and games: find a sound by event, set or description and download it into the project.",
   "mcpServers": {
     "sfxmint": {
-      "httpUrl": "https://sfxmint.com/mcp"
+      "httpUrl": "https://sfxmint.com/mcp?ref=gemini"
     }
   },
   "contextFileName": "GEMINI.md"

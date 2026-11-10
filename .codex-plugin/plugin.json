@@ -1,6 +1,6 @@
 {
   "name": "sfxmint",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Free CC0 sound effects for apps and games: find a sound by event, set or description and download it into the project.",
   "author": { "name": "SFXMint", "url": "https://sfxmint.com" },
   "homepage": "https://sfxmint.com",
@@ -8,7 +8,7 @@
   "license": "CC0-1.0",
   "keywords": ["sound-effects", "audio", "game-audio", "cc0", "mcp"],
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json",
+  "mcpServers": "./.codex.mcp.json",
   "interface": {
     "displayName": "SFXMint",
     "shortDescription": "Free CC0 sound effects for apps and games.",

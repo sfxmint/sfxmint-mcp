@@ -39,7 +39,7 @@ No separate Python or FFmpeg installation is required for previewing or renderin
 For Claude Code:
 
 ```bash
-claude mcp add --transport http sfxmint https://sfxmint.com/mcp
+claude mcp add --transport http sfxmint "https://sfxmint.com/mcp?ref=remotion-example"
 ```
 
 For clients accepting `mcpServers` configuration:
@@ -47,7 +47,7 @@ For clients accepting `mcpServers` configuration:
 ```json
 {
   "mcpServers": {
-    "sfxmint": { "url": "https://sfxmint.com/mcp" }
+    "sfxmint": { "url": "https://sfxmint.com/mcp?ref=remotion-example" }
   }
 }
 ```

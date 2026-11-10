@@ -39,7 +39,7 @@ npm run render -- --browser-executable="/Applications/Google Chrome.app/Contents
 Claude Code：
 
 ```bash
-claude mcp add --transport http sfxmint https://sfxmint.com/mcp
+claude mcp add --transport http sfxmint "https://sfxmint.com/mcp?ref=remotion-example"
 ```
 
 支持 `mcpServers` 的客户端可以使用：
@@ -47,7 +47,7 @@ claude mcp add --transport http sfxmint https://sfxmint.com/mcp
 ```json
 {
   "mcpServers": {
-    "sfxmint": { "url": "https://sfxmint.com/mcp" }
+    "sfxmint": { "url": "https://sfxmint.com/mcp?ref=remotion-example" }
   }
 }
 ```
